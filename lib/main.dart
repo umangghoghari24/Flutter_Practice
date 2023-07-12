@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:practice/CircleAvtar.dart';
 import 'package:practice/Column%20&%20Row.dart';
 import 'package:practice/IconButton.dart';
+import 'package:practice/Searchview.dart';
 import 'package:practice/TextFormFiled.dart';
 import 'package:practice/TextWidget.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: Textform()
+      home: SearchView(
+      )
     );
   }
 }
